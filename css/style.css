@@ -1,0 +1,163 @@
+/* INSERT FONT FAMILY FOR BODY */
+body, html {
+    height: 100%;
+    font-family: 'Concert+One', cursive;
+
+ /* INSERT WALLPAPER */
+ background-image:      url("../images/recycle-arrow2.jpg");
+    background-attachment: fixed;
+    background-position: center; 
+            }   
+
+/* DEFINE NAV */
+.nav{
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 10;
+    z-index: 90;
+    width: 100%;
+    height: 60px;
+    background-color: #FFFFFF;    
+}
+
+/* DEFINE COLOR FOR ANCHORS */
+/* DEFINE TEXT-DECORATION */
+a {
+    text-decoration: none;
+    color:#FF8C00;
+    }
+
+/* DEFINE LOGO */
+.wrapper {
+    position:sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    width: 100%; 
+    height: 360px;
+    bottom: 0px;     
+            }
+
+.logo{
+    background-color: #FFFFFF; 
+    height:210px;
+    background-image:url('../images/recycle-logo.png');
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-bottom: 40px;
+}
+
+/* TURN NAV COLOR TO LILAC */
+.nav{
+    background-color: #edd2ed;
+    }
+
+.nav li {
+    flex:1;
+    font-family: 'Concert+One', cursive;
+    font-size: 25px;
+        }
+
+.nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+        }
+
+
+
+/* TOP ROW */
+.row {
+    margin-top:40px;
+    height:480px;
+	width:auto;
+	display:flex;
+	justify-content:center;
+     }
+
+/* DIVIDE INTO SECTIONS */
+.sec1 {
+    
+    background-color:#FFFFFF;
+    width:40%;
+	padding:10px;
+    border:solid 2px #ff99cc;
+  	 }
+
+.sec2 {
+    align-content:center;
+    border:solid 2px #ff99cc;
+        }
+
+.box {height:400px;
+    width:400px;
+    flex:1;
+    font-family: 'Concert+One', cursive;
+    font-size: 40px;
+    text-align: left;
+		}
+
+.box h2 {padding-top: 270px;
+        padding-left:30px;}
+
+.first {
+    margin-top:  240px;
+    margin-bottom: 20px;
+				}
+.second {
+    margin-bottom: 50px;
+		}
+
+.parent {
+    display: flex;
+    justify-content: space-around;
+		}
+
+.one {
+	margin-left: 150px;
+    margin-right: 10px;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+
+.two {
+    margin-right: 150px;
+    margin-left: 10px;
+     background-position: right;
+    background-size: cover;
+    background-repeat: no-repeat;
+     }
+
+.three {
+    margin-left: 150px;
+    margin-right: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+        }
+
+.four {
+	margin-right: 150px;
+    margin-left: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+      }
+
+
+/*list of site images to be loaded in frames */
+		
+.img1 {background-image: url('../images/tips.jpg');
+      }
+
+.img2 {background-image: url('../images/resources.png');
+    }
+
+.img3 {background-image: url('../images/products.jpg');
+      }
+
+.img4 {background-image: url('../images/about-me1.png');
+      }
